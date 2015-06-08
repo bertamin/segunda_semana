@@ -1,0 +1,36 @@
+<h1 align="center"><u>eCommerce Platform</u></h1>
+
+<h3>
+	<strong>Ordenador</strong>
+	<%= @laptop.id %>
+</h3>
+
+<p>
+	<strong>Brand:</strong>
+	<%= @laptop.brand %>
+</p>
+
+<p>
+	<strong>Model:</strong>
+	<%= @laptop.model %>
+</p>
+
+<p>
+	<strong>Processor Brand:</strong>
+	<%= @laptop.processorBrand %>
+</p>
+
+<p>
+	<strong>RAM:</strong>
+	<%= @laptop.ram %>
+</p>
+
+<p>
+	<strong>Price:</strong>
+	<%= @laptop.price %>
+</p>
+
+<p>
+	<%= link_to 'Edit', edit_laptop_path %>
+	<%= link_to 'Back', laptops_path %>
+</p>

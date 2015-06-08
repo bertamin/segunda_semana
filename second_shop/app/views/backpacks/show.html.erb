@@ -1,0 +1,31 @@
+<h1 align="center"><u>eCommerce Platform - Iteration 2</u></h1>
+
+<h3>
+	<strong>Mochila</strong>
+	<%= @backpack.id %>
+</h3>
+
+<p>
+	<strong>Color:</strong>
+	<%= @backpack.color %>
+</p>
+
+<p>
+	<strong>Capacity (in liters):</strong>
+	<%= @backpack.capacity %>
+</p>
+
+<p>
+	<strong>Number of Pockets:</strong>
+	<%= @backpack.pockets %>
+</p>
+
+<p>
+	<strong>If it is waterproof?:</strong>
+	<%= @backpack.waterproof %>
+</p>
+
+<p>
+	<%= link_to 'Edit', edit_backpack_path %>
+	<%= link_to 'Back', backpacks_path %>
+</p>
